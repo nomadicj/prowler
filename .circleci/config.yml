@@ -6,7 +6,7 @@ orbs:
 jobs:
   deploy:
     docker:
-      image: circleci/buildpack-deps:latest
+      - image: circleci/buildpack-deps:latest
     steps:
       - checkout
       - run:
