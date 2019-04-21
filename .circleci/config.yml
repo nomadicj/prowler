@@ -15,6 +15,6 @@ jobs:
 
 workflows:
   version: 2
-  deploy:
+  deploy_prowler:
     jobs:
       - deploy
