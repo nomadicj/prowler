@@ -5,6 +5,8 @@ orbs:
 
 jobs:
   deploy:
+    docker:
+      image: alpine
     steps:
       - checkout
       - run:
